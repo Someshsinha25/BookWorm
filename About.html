@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookWorm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" href="About.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <img src="./wolf predator.png" />
+      <div class="menu-right">
+        <span onClick="myFunction()">&#9776;</span>
+        <ul id="menu">
+          <a href="index.html"><li>HOME</li></a>
+          <a href="About.html"><li>ABOUT</li></a>
+          <!-- <a href="Genre.html"><li>GENRES</li></a> -->
+          <a href="Contact.html"><li>CONTACT</li></a>
+          <a href="login.html"><li>LOGIN</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="about-card">
+      <div class="about-heading"><h1>ABOUT BOOKWORM</h1></div>
+      <p>
+        <b>BookWorm</b>is a digital library, also called an online library, an
+        internet library, a digital repository, or a digital collection is an
+        online database of digital objects that can include text, still images,
+        audio, video, digital documents, or other digital media formats or a
+        library accessible through the internet. Objects can consist of
+        digitized content like print or photographs, as well as originally
+        produced digital content like word processor files or social media
+        posts. In addition to storing content, digital libraries provide means
+        for organizing, searching, and retrieving the content contained in the
+        collection. Digital libraries can vary immensely in size and scope, and
+        can be maintained by individuals or organizations.
+      </p>
+    </div>
+    <div class="footer-basic">
+      <footer>
+        <div class="social">
+          <a href="#"><i class="icon ion-social-instagram"></i></a
+          ><a href="#"><i class="icon ion-social-snapchat"></i></a
+          ><a href="#"><i class="icon ion-social-twitter"></i></a
+          ><a href="#"><i class="icon ion-social-facebook"></i></a>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Company Name © 2018</p>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("menu");
+
+        if (x.style.display == "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
